@@ -6,23 +6,23 @@ la chaudière emet un fichier csv par jour contenant une cinquantaine de mesure 
 
 ## 📁 Structure du projet
 
-'''
+```
 okofen/
-├── data/# Données brutes : tous les fichiers CSV.
+├── data/                   # Données brutes : tous les fichiers CSV.
 │   └── *.csv
-│   └── chaudiere.sqlite # Base de données SQLite créée depuis les CSV.
+│   └── chaudiere.sqlite    # Base de données SQLite créée depuis les CSV.
 │
-├── src/ # Code source principal.
-│   ├── config.py # Chemins, constantes, dictionnaires de renommage.
-│   ├── database.py # Création et manipulation de la base SQLite.
-│   ├── fonction.py # Outils d’analyse et d’exploitation des données.
-│   ├── interface.py # Interface utilisateur.
-│   ├── main.py # Script principal pour orchestrer la base et les analyses.
-│   ├── verif_data.py # Vérification format et cohérence des CSV.
-│   ├── visualisation.py # Création de graphique.
+├── src/                    # Code source principal.
+│   ├── config.py           # Chemins, constantes, dictionnaires de renommage.
+│   ├── database.py         # Création et manipulation de la base SQLite.
+│   ├── fonction.py         # Outils d’analyse et d’exploitation des données.
+│   ├── interface.py        # Interface utilisateur.
+│   ├── main.py             # Script principal pour orchestrer la base et les analyses.
+│   ├── verif_data.py       # Vérification format et cohérence des CSV.
+│   ├── visualisation.py    # Création de graphique.
 │
-├── README.md # Explication du projet.
-'''
+├── README.md               # Explication du projet.
+```
 
 
 ## ⚙️ Fonctionnement
