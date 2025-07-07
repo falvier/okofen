@@ -16,11 +16,13 @@ okofen/
 │   ├── config.py           # Chemins, constantes, dictionnaires de renommage.
 │   ├── database.py         # Création et manipulation de la base SQLite.
 │   ├── fonction.py         # Outils d’analyse et d’exploitation des données.
-│   ├── interface.py        # Interface utilisateur.
 │   ├── main.py             # Script principal pour orchestrer la base et les analyses.
 │   ├── verif_data.py       # Vérification format et cohérence des CSV.
 │   ├── visualisation.py    # Création de graphique.
-│
+│   ├── interface.py        # Interface utilisateur.
+│   ├── class_interface.py  # structure de l'interface.
+
+
 ├── README.md               # Explication du projet.
 ```
 
